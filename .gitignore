@@ -1,0 +1,233 @@
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.staging
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# ===========================================
+# GOLANG (foodaddikt-be)
+# ===========================================
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Dependency directories (Go)
+vendor/
+
+# Go workspace file
+go.work
+
+# Air (live reload for Go)
+tmp/
+
+# ===========================================
+# NODE.JS / REACT (foodaddikt-fe)
+# ===========================================
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Production builds
+build/
+dist/
+.next/
+out/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# ESLint cache
+.eslintcache
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+.parcel-cache
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# ===========================================
+# REACT NATIVE / EXPO (foodaddikt-mob)
+# ===========================================
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Metro
+.metro-health-check*
+
+# React Native
+# Android/IntelliJ
+android/app/build/
+android/.gradle/
+android/local.properties
+android/gradle.properties
+android/app/release/
+android/app/debug/
+android/.idea/
+android/captures/
+android/keystores/debug.keystore
+android/app/google-services.json
+
+# iOS
+ios/Pods/
+ios/**/*.xcworkspace
+ios/**/*.xcuserdata
+ios/build/
+ios/.xcode.env.local
+ios/GoogleService-Info.plist
+
+# macOS
+ios/**/*.DS_Store
+
+# Flipper
+ios/Flipper*
+
+# CocoaPods
+ios/Podfile.lock
+
+# Fastlane
+ios/fastlane/report.xml
+ios/fastlane/Preview.html
+
+# Bundle artifacts
+*.jsbundle
+
+# ===========================================
+# MOBILE SPECIFIC
+# ===========================================
+
+# React Native CLI
+.react-native/
+
+# Watchman
+.watchmanconfig
+
+# Buck
+buck-out/
+
+# Gradle
+.gradle/
+build/
+
+# Signing files
+*.keystore
+*.jks
+
+# ===========================================
+# DEVELOPMENT TOOLS
+# ===========================================
+
+# Docker
+.dockerignore
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Package managers
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Testing
+coverage/
+.nyc_output/
+junit.xml
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# Keys and certificates
+*.pem
+*.key
+*.crt
+*.p12
+*.p8
+
+# Config files with sensitive data
+config/local.json
+config/production.json
+
+
